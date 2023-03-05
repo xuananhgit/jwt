@@ -1,0 +1,14 @@
+sqlgetter:
+  filepath: src/main/resources/sqlHandler/UserHandler.xml
+  id: id
+  databaseName: postgres
+  tagName: sql
+
+datasource:
+  url: jdbc:postgresql://localhost:5432/spring-security-jwt
+  username: postgres
+  password: postgres
+  postgres: org.postgresql.Driver
+
+secret:
+  key: 58703273357638792F423F4528482B4D6250655368566D597133743677397A24
