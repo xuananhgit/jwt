@@ -10,8 +10,10 @@ public class SecretKey {
     @Value("${secret.key}")
     private String key;
 
+    private final String CUC_CU = "em hay noi xem nhung dieu tu truoc gio em khong that tha";
+
     @Override
     public String toString() {
-        return key;
+        return key + CUC_CU;
     }
 }
